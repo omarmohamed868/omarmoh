@@ -1,0 +1,141 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: black;
+
+}
+
+
+.menu ul{
+    display: inline-block;
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    margin:5px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+
+}
+
+
+nav div{
+    display: inline-block;
+}
+nav{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+   
+    position: fixed;
+    z-index: 1px;
+    width: 100%;
+}
+.i{
+    margin:0 15px;
+   padding-top: 15px;
+    color: white;
+    
+
+}
+.menu ul li a{
+    color: white;
+}
+.menu ul li:hover{
+    border: 1px solid rgb(189, 128, 62);
+}
+.menu ul{
+    margin: 0;
+}
+
+
+
+.fresh{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-size:50px;
+    text-align: center;
+} 
+.about{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: rgb(189, 128, 62);
+}
+.about hr{
+  width: 10%;
+  display: inline-block;
+}
+.about:hover hr{
+    width: 20%;
+}
+.con{
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+.con1 img{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+a{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.con1{
+    padding: 0px;
+}
+.con2{
+   color: white;
+   font-size:10px;
+   
+   text-align: center;
+    
+  
+}
+.con2 p{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.con2 pre{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.our{
+    width: 100%
+}
+.meen:hover
+{
+    background-color: white;
+    color: black;
+}
+.but:hover{
+    transform: scale(1.04);
+}
+.last:hover{
+  transform: scale(1.05);
+}
+
+.dd1,.dd2,.dd3{
+    margin: 20px;
+    padding: 0;
+}
+.dd1 pre{
+    color: rgb(158, 150, 150);
+}
+
+.dd2 pre{
+    color: rgb(158, 150, 150);
+}
+
+.dd3 pre{
+    color: rgb(158, 150, 150);
+   
+}
